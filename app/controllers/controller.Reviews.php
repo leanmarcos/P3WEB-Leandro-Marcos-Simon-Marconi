@@ -134,7 +134,7 @@ class ControllerReviews
 
         $this->model->updateReview($title, $description, $value, $id);
 
-        return $this->view->response("Reseña editada correctamente", 200);
+        return $this->view->response("Reseña editada correctamente", 201);
     }
 
     public function default()
