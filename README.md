@@ -1,6 +1,6 @@
 # P3WEB-Leandro-Marcos-Simon-Marconi
 
-Descripcion
+Descripcion:
 La idea de esta nueva tabla era añadir reseñas o comentarios sobre la pagina, incluyendo titulo, descripcion y valor (estrellas).
 Hicimos esta nueva tabla para no romper ni perturbar nuestra segunda entrega
 
@@ -63,7 +63,7 @@ Hicimos esta nueva tabla para no romper ni perturbar nuestra segunda entrega
 
 ❗Aclaraciones
     ▪️ Para las funciones que se pretende ordenar por ascendente o descente, se aclara que por default ya se muestran de forma ascendente si no se establece un orden
-    ▪️ Las url que tengan /:id debe tener reemplazado el "/:d" por el identificador o numero de la reseña que se busca (updatereview/4)
+    ▪️ Las url que tengan /:id debe tener reemplazado el "/:id" por el identificador o numero de la reseña que se busca (updatereview/4)
     ▪️ Ciertos id de reseñas no existen ya que se los eliminó a modo de prueba, por ejemplo el numero 4 o 7
 
 ❗NOTA
