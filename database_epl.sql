@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-11-2024 a las 15:30:55
+-- Tiempo de generación: 26-11-2024 a las 14:27:19
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -94,7 +94,11 @@ CREATE TABLE `reseñas` (
 
 INSERT INTO `reseñas` (`id`, `titulo`, `descripcion`, `valor`) VALUES
 (1, 'Regular', 'Esta regular porque', 3),
-(2, 'Buena pagina', 'Me parecio buena porque...', 4);
+(2, 'Pruebando editar', 'Prueba de PUT', 4),
+(3, 'Siendo sincero la verdad', 'Buena pagina', 5),
+(5, 'OK', 'La pagina esta OK', 2),
+(6, 'Sin comentarios', 'No es clara', 2),
+(8, 'Prueba', 'Prueba de POST', 4);
 
 -- --------------------------------------------------------
 
@@ -165,7 +169,7 @@ ALTER TABLE `jugadores`
 -- AUTO_INCREMENT de la tabla `reseñas`
 --
 ALTER TABLE `reseñas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT de la tabla `user`
