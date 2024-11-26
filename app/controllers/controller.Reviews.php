@@ -103,6 +103,8 @@ class ControllerReviews
         }
 
         $this->model->newReview($title, $description, $value);
+
+        $this->view->response("Resenia creada", 201);
     }
 
     public function updateReview($req)
